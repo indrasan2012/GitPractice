@@ -11,5 +11,11 @@ namespace GitPractice.Controllers
     [ApiController]
     public class EmployeeController : ControllerBase
     {
+        [HttpGet]
+        public string Get()
+        {
+            return "Data Saved SuccessFully";
+        }
     }
+    
 }
